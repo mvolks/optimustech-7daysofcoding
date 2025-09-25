@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(home.css);
+@import url(metricas.css);
+@import url(talentos.css);
+@import url(vagas.css);
+@import url(depoimentos.css);
+@import url(rodape.css);
+
+
+:root {
+    --vermelho--principal: #8E2424;
+    --fonte-principal: 'Inter', sans-serif;
+    --cinza-secundario: #667085;
+    --cor-botao-degrade: rgba(142, 36, 36, 0.05);
+    --cinza-bordas: #EAECF0;
+    --fundo-rodape: #F9FAFB;
+    --rodape-final: #98A2B3;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cabecalho__titulo {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho__lista {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    padding-right: 60rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.lista__botao {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho__botoes {
+    display: flex;
+    gap: 12px;
+    margin-right: 2rem;
+    
+}
+
+.botao__cadastro button {
+    background-color: transparent;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao__cadastro__2 button {
+    background-color: var(--vermelho--principal);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}

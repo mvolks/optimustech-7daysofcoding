@@ -1,0 +1,36 @@
+.container__depoimentos {
+    font-family: var(--fonte-principal);
+    display: block;
+    text-align: center;
+    background-color: var(--cor-botao-degrade);
+    margin: 0 112px 96px;
+    border-radius: 10px;
+}
+
+.depoimentos__titulo {
+   color: var(--vermelho--principal);
+   font-size: 14px;
+   font-weight: 600;
+   padding:64px 64px 16px;
+
+}
+
+.depoimentos__descricao {
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+    padding: 0 200px 32px;
+}
+
+.depoimentos__nome {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.depoimentos__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    padding-bottom: 64px;
+}

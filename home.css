@@ -1,0 +1,35 @@
+
+.container {
+    font-family: var(--fonte-principal);
+    display: block;
+    text-align: center;
+    
+    margin: 0 324px;
+    padding-top: 6rem;
+
+}
+
+.container__botao {
+    color: var(--vermelho--principal);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.container__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.container__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    line-height: 32px;
+    margin: 0 224px;
+}

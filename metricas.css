@@ -1,0 +1,35 @@
+.container__metricas {
+    font-family: var(--fonte-principal);
+    display: flex;
+    padding-top: 6rem;
+    gap: 12px;
+    justify-content: center;
+}
+
+.metrica {
+    margin: 32px;
+    text-align: left;
+    width: 18%;
+}
+
+.metrica__numero {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho--principal);
+    margin-bottom: 12px;
+}
+
+.metrica__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    
+}
+
+.metrica__descricao {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    line-height: 24px;
+    
+}

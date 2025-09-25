@@ -1,0 +1,40 @@
+.container__talentos {
+    font-family: var(--fonte-principal);
+    display: block;
+    padding-top: 6rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.talentos__botao {
+    color: var(--vermelho--principal);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius:16px ;
+    background-color: var(--cor-botao-degrade);
+    padding: 8px;
+}
+
+.talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.talentos__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    line-height: 30px;
+    
+}
+
+.talentos__imagem {
+    margin-top: 4rem;
+    width: 100%;
+    
+}
